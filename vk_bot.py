@@ -23,8 +23,8 @@ def isi_text(j):
     i = ' '.join(pattern.findall(j))
     return i
 
-
-token = "c5e63605b88c44ae6dae4c0717b42a8bb7e19f4fff1a8f3cc5b2275ece089c44cfb41b74efbb894075e89"
+# 0 = 9
+token = "c5e63605b88c44ae6dae4c0717b42a8bb7e19f4fff1a8f3cc5b2275ece089c44cfb41b74efbb894075e80"
 
 vk = vk_api.VkApi(token=token)
 vk._auth_token()
